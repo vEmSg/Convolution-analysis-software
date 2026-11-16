@@ -1,0 +1,6 @@
+# Runtime dependencies for the convolution-analysis application.
+# Tested with Python 3.13 on macOS ARM64.
+matplotlib==3.11.1
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0

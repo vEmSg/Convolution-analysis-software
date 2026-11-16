@@ -1,0 +1,27 @@
+{
+  "format": "convolution-analysis-parameter-preset",
+  "version": 1,
+  "main_parameters": {
+    "cv_cycles_n": "1",
+    "n_e": "1",
+    "diameter": "0.1",
+    "scan_rate": "10",
+    "temperature": "293.25",
+    "diffusion_o": "4.05e-6",
+    "diffusion_r": "4.05e-6",
+    "double_layer_capacity": "",
+    "background_mode": "background_cv",
+    "background_cv_path": "BG_10V.csv",
+    "smoothing_enabled": "True",
+    "smoothing_window_mv": "20",
+    "smoothing_order": "2"
+  },
+  "error_parameters": {
+    "sigma_current": "1e-6",
+    "sigma_cdl": "0",
+    "sigma_diameter_percent": "0",
+    "sigma_diffusion_o_percent": "0",
+    "sigma_diffusion_r_percent": "0",
+    "lgk_error_limit": "0.3"
+  }
+}

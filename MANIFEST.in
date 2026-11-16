@@ -1,0 +1,6 @@
+include README.md LICENSE requirements.txt
+recursive-include docs *.md *.png *.jpg
+recursive-include examples *.md *.json *.csv *.ipynb
+recursive-include tests *.py
+exclude gui-check.json
+global-exclude *.py[cod] .DS_Store *-checkpoint.*

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convolution-analysis"
+description = "Desktop convolution analysis of cyclic-voltammetry data"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+dynamic = ["version", "dependencies"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[project.gui-scripts]
+convolution-analysis = "convolution_cv.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "convolution_cv.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["convolution_cv*"]
+exclude = ["tests*"]

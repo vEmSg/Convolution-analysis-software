@@ -1,0 +1,57 @@
+# macOS / Windows metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Coverage and test artifacts
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and crash reports
+*.log
+*.traceback
+
+# Generated convolution-analysis results
+/test_case_*/output/
+/test_cases/test_case_*/output/
+/output/
+/outputs/
+/results/
+/gui-check.json
+/examples/**/output/
